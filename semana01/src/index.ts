@@ -25,12 +25,18 @@ import exercicio29 from './exercicio29';
 import exercicio28 from './exercicio28';
 import exercicio27 from './exercicio27';
 import exercicio26 from './exercicio26';
+import exercicio35 from './exercicio30';
+import exercicio30 from './exercicio30';
+import exercicio31 from './exercicio31';
+import exercicio32 from './exercicio32';
+import exercicio33 from './exercicio33';
+import exercicio34 from './exercicio34';
 
-var opcao = leia.keyInSelect(["Exercicio 01", "Exercicio 02","Exercicio 03","Exercicio 04", "Exercicio 05","Exercicio 06","Exercicio 07","Exercicio 08","Exercicio 09","Exercicio 10",
-"Exercicio 11","Exercicio 12","Exercicio 13","Exercicio 14","Exercicio 15","Exercicio 16","Exercicio 17","Exercicio 18","exercicio 19","exercicio 20","exercicio 21","exercicio 22",
-"exercicio 23","exercicio 24","Exercicio 25","Exercicio 26","Exercicio 27","Exercicio 28","Exercicio 29"]) + 1
+var opcao = leia.keyInSelect(["Exercicio 01", "Exercicio 02", "Exercicio 03", "Exercicio 04", "Exercicio 05", "Exercicio 06", "Exercicio 07", "Exercicio 08", "Exercicio 09", "Exercicio 10",
+    "Exercicio 11", "Exercicio 12", "Exercicio 13", "Exercicio 14", "Exercicio 15", "Exercicio 16", "Exercicio 17", "Exercicio 18", "exercicio 19", "exercicio 20", "exercicio 21", "exercicio 22",
+    "exercicio 23", "exercicio 24", "Exercicio 25", "Exercicio 26", "Exercicio 27", "Exercicio 28", "Exercicio 29", "Exercicio 30", "Exercicio 31", "Exercicio 32", "Exercicio 33", "Exercicio 34"]) + 1
 
-switch(opcao){
+switch (opcao) {
     case 1:
         exercicio01()
         break;
@@ -45,68 +51,83 @@ switch(opcao){
         break;
     case 5:
         exercicio05()
-        break;    
+        break;
     case 6:
         exercicio06()
         break;
     case 7:
         exercicio07()
-        break;  
+        break;
     case 8:
         exercicio08()
-        break;  
+        break;
     case 9:
         exercicio09()
         break;
     case 10:
         exercicio10()
-        break;     
+        break;
     case 11:
         exercicio11()
-        break;    
+        break;
     case 12:
         exercicio12()
         break;
     case 13:
         exercicio13()
-        break;    
+        break;
     case 14:
         exercicio14()
         break;
     case 15:
         exercicio15()
-        break; 
+        break;
     case 19:
         exercicio19()
-        break; 
+        break;
     case 20:
         exercicio20()
-        break;   
+        break;
     case 21:
         exercicio21()
-        break;  
+        break;
     case 22:
         exercicio22()
-        break; 
+        break;
     case 23:
         exercicio23()
-        break; 
+        break;
     case 24:
         exercicio24()
-        break;   
+        break;
     case 25:
         exercicio25()
-        break;         
-        case 26:
+        break;
+    case 26:
         exercicio26()
-        break; 
+        break;
     case 27:
         exercicio27()
-        break; 
+        break;
     case 28:
         exercicio28()
-        break;   
+        break;
     case 29:
         exercicio29()
-        break;   
+        break;
+    case 30:
+        exercicio30()
+        break;
+    case 31:
+        exercicio31()
+        break;
+    case 32:
+        exercicio32()
+        break;
+    case 33:
+        exercicio33()
+        break;
+    case 34:
+        exercicio34()
+        break;
 }
