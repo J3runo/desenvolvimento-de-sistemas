@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "tsx ./src/index.ts"
+    "dev": "tsx ./src/Atividades/index.ts",
+    "dev2": "tsx ./src/Atividades2/index2.ts"
+    
   },
   "keywords": [],
   "author": "",
